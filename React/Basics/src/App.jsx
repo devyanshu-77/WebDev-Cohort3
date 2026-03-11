@@ -1,13 +1,10 @@
-import Food from "./Food";
-import Footer from "./Footer";
-import Header from "./Header";
+import "./index.css"
+import Card from "./Card";
 
 const App = () => {
     return (
         <>
-            <Header />
-            <Food />
-            <Footer />
+          <Card />
         </>
     );
 };
