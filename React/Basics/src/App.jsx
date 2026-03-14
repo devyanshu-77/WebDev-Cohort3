@@ -1,10 +1,12 @@
-import "./index.css"
-import UserGreeting from "./UserGreeting";
+// Click event = An interaction when a user clicks on a specific element. We can respond to clicks by passing a callback to the click event
+// handler
+import Button from "./Button";
+import Profile from "./Profile";
 
 const App = () => {
     return (
         <>
-            <UserGreeting isLoggedIn={false} userName="BroCode" />
+            <Profile />
         </>
     );
 };
